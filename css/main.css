@@ -1,0 +1,39 @@
+@import "/css/header.css";
+@import "/css/cards.css";
+@import "/css/footer.css";
+
+@font-face {
+  font-family: "Prata-Regular";
+  src: url(/fonts/Prata-Regular.ttf);
+}
+
+@font-face {
+  font-family: eczar-semibold;
+  src: url(/fonts/Eczar/Eczar-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: tajawal-L;
+  src: url(/fonts/Tajawal/Tajawal-Light.ttf);
+}
+
+:root{
+  --fnheader: eczar-semibold;
+  --fnbody: Prata-Regular;
+  --fntajawal:tajawal-L;
+  --azul-fuerte: #182F53;
+  --crema: #F4F8F0;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(/img/fondo-page.jpg);
+  background-attachment:fixed;
+  min-height: 100vh; 
+}
+
