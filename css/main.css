@@ -8,21 +8,28 @@
 }
 
 @font-face {
-  font-family: eczar-semibold;
+  font-family: "eczar-semibold";
   src: url(/fonts/Eczar/Eczar-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: tajawal-L;
+  font-family: "tajawal-L";
+  src: url(/fonts/Tajawal/Tajawal-Light.ttf);
+}
+
+@font-face {
+  font-family: "tajawal-ExtraLight";
   src: url(/fonts/Tajawal/Tajawal-Light.ttf);
 }
 
 :root{
   --fnheader: eczar-semibold;
   --fnbody: Prata-Regular;
+  --fnEL:tajawal-ExtraLight; 
   --fntajawal:tajawal-L;
   --azul-fuerte: #182F53;
-  --crema: #F4F8F0;
+  --crema: #f7f5de;
+  --gray: #3d3d3d;
 }
 
 
